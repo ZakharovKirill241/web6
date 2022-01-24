@@ -80,7 +80,7 @@ window.addEventListener('DOMContentLoaded', function(event) {
                     result += optionPrice;
                     lastcostcolor = optionPrice;
                 }
-                sum.innerHTML = (name + ", сумма к оплате: " + result);
+                sum.innerHTML = (name + "сумма к оплате: " + result);
             }
         });
     });
