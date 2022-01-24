@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        <input type="text" name="cost" placeholder="Введите стоимость">
+        <input type="text" name="kol" placeholder="Введите количество">
+        <button id="button1" onclick="return calc();">Расчитать стоимость</button>
+    </form>
+    <div id="result"></div>
+
+
+    <form>
+        <select name="form">
+            <option value="0">Выберите материал</option>
+            <option value="1">Дерево</option>
+            <option value="2">Камень</option>
+            <option value="3">Метал</option>
+        </select>
+        <div id="radios">
+            <div class="color">Выберите цвет: </div>
+            <label>
+                <input type="radio" name="color" value="0">Черный
+            </label>
+            <label>
+                <input type="radio" name="color" value="1">Серый   
+            </label>
+            <label>
+                <input type="radio" name="color" value="2">Белый
+            </label>
+        </div>
+        <div id="checkboxes">
+            <div class="border">Выберите border:</div>
+            <label><input type="checkbox" value="border1">Черный</label>
+            <label><input type="checkbox" value="border2">Белый</label>
+            <label><input type="checkbox" value="border3">Серый</label>
+        </div>
+        <div id="sum"></div>
+    </form>
+
+    <script src="main.js" defer></script>
+</body>
+
+</html>
